@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #19202e;
+}
+h3 {
+  font-size: 18px;
+}
+.top-bar {
+  position: relative;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.social-list {
+  display: flex;
+  flex-flow: row, nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-inline {
+  width: 180px;
+}
+.finish_round {
+  display: flex;
+  flex-flow: row, nowrap;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+.main_resume {
+  background-color: #1b2231;
+  margin-top: 40px;
+  min-height: 447px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.main_resume .resume_header {
+  width: 900px;
+  margin: 0 auto;
+}
+.resume_profile {
+  position: relative;
+  margin-top: 70px;
+}
+.resume_img {
+  position: absolute;
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  top: -75px;
+  left: 380px;
+  border: 8px solid #1e2738;
+}
+h2.resume_name {
+  color: white;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 90px;
+}
+div.resume_role {
+  padding-top: 10px;
+  text-align: center;
+  color: #a5b3ce;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.resume-contact {
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  font-size: 0.875rem;
+}
+.resume_contact_list {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row, nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume_contact_list .list_inline {
+  display: flex;
+  width: 900px;
+  margin-left: 20px;
+}
+.resume_contact_list .list_inline .contact {
+  width: 20px;
+  height: 20px;
+}
+.resume_contact_list .list_inline .contact_text {
+  display: inline;
+  text-align: center;
+  color: #a5b3ce;
+  margin-left: 10px;
+  font-size: 17px;
+}
+.resume_body {
+  padding: 60px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col_main {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  width: 500px;
+  padding-right: 40px;
+}
+.resume_section_heading {
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.peson_text {
+  margin-left: 12px;
+}
+.resume_summary_descr {
+  margin-top: 25px;
+  color: #a5b3ce;
+}
+.person {
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 38px;
+  height: 38px;
+  padding-left: 0.15rem;
+  background: rgba(0, 0, 0, 0.15);
+  font-size: 1.125rem;
+  color: #d7dde9;
+}
+.resume-section-heading2 {
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.setting {
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 38px;
+  height: 38px;
+  padding-left: 0.15rem;
+  background: rgba(0, 0, 0, 0.15);
+  font-size: 1.125rem;
+  color: #d7dde9;
+  margin-left: 20px;
+}
+.stack_text {
+  margin-left: 12px;
+}
+.list-unstyled {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.list-unstyled .resume-skill-name {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 16px;
+}
+.list-unstyled .resume_progres {
+  height: 0.3rem;
+  margin-top: 8px;
+  background: #19202e;
+  border-radius: 0.25rem;
+  width: 300px;
+}
+.progres_bar {
+  background: #8497bc;
+  height: 0.3rem;
+}
+hr {
+  margin-top: 20px;
+  opacity: 0.25;
+  margin-left: 20px;
+}
+.resume_skills2 {
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+.list-inline {
+  margin-top: 20px;
+  width: 280px;
+  padding-left: 0;
+}
+.list-inline .list-inline-item {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+.list-inline .list-inline-item .esume-skill-badge {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 0.65rem;
+  margin-bottom: 0.5rem;
+}
+.item {
+  margin-top: 20px;
+  margin-left: 7px;
+  margin-bottom: 20px;
+}
+.item-heading {
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.item_icon {
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding-left: 0.15rem;
+  background: rgba(0, 0, 0, 0.15);
+  font-size: 1.125rem;
+  color: #d7dde9;
+}
+.item-desc {
+  margin-left: 8px;
+}
+a {
+  margin-left: 12px;
+  color: white;
+}
+.item_descr {
+  color: #a5b3ce;
+  padding-left: 32px;
+  margin-top: 5px;
+}
+.list-unstyled {
+  margin-top: 20px;
+  padding-left: 7px;
+  margin-bottom: 20px;
+}
+.education {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.resume-degree-org {
+  font-size: 13px;
+  font-weight: 900;
+  color: #a5b3ce;
+  margin-top: 2px;
+}
+.resume-degree-time {
+  font-size: 13px;
+  font-weight: 900;
+  color: #a5b3ce;
+  margin-top: 2px;
+}
+.resume-lang-name {
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.875rem;
+}
+.resume-level-indicator {
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.col {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.itemac.item-full {
+  background: #8497bc;
+  margin: 2px;
+}
+.itemac {
+  width: 85%;
+  min-height: 10px;
+  width: 30px;
+  border-radius: 2px;
+  display: inline-block;
+  background: #19202e;
+  position: relative;
+}
+.itemac.item-half {
+  width: 50%;
+  background: #19202e;
+}
+.Languages {
+  margin-top: 20px;
+}
+.resume-lang-name {
+  font-weight: 900px;
+  font-size: 15px;
+}
+.resume-experience-section {
+  margin-top: 20px;
+}
+#main_hr {
+  margin-left: 0;
+}
+.resume_summary2 {
+  margin-top: 20px;
+}
+.my-hobby {
+  margin-top: 20px;
+  color: #a5b3ce;
+  line-height: 20px;
+}
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+tr {
+  margin-top: 30px;
+  color: #fff;
+}
+#fighter {
+  display: block;
+  padding-top: 20px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.copyright {
+  font-size: 18px;
+  color: #a5b3ce;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.love {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
